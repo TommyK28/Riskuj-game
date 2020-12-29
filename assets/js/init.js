@@ -10,8 +10,8 @@ var button__team_2 = document.querySelectorAll('.flip-card--button-2');
 var button__team_3 = document.querySelectorAll('.flip-card--button-3');
 
 
-// add points for VEVERKY
-function addPointsV(event) {
+// add points for Team-1
+function addPointsTeam1(event) {
     //console.log('click');
     var x = parseInt(event.currentTarget.dataset.value);
     total_1 += x;
@@ -24,12 +24,12 @@ for (var i = 0; i < button__team_1.length; i++ ) {
 
     var points = button__team_1[i];
     //console.log(points.dataset.value);
-    points.addEventListener('click', addPointsV);
+    points.addEventListener('click', addPointsTeam1);
     
 }
 
-// add points for FIALKY
-function addPointsF(event) {
+// add points for Team-2
+function addPointsTeam2(event) {
     //console.log('click');
     var x = parseInt(event.currentTarget.dataset.value);
     total_2 += x;
@@ -42,11 +42,11 @@ for (var i = 0; i < button__team_2.length; i++ ) {
 
     var points = button__team_2[i];
     //console.log(points.dataset.value);
-    points.addEventListener('click', addPointsF);
+    points.addEventListener('click', addPointsTeam2);
 }
 
-// add points for SKAUTI
-function addPointsS(event) {
+// add points for Team-3
+function addPointsTeam3(event) {
     //console.log('click');
     var x = parseInt(event.currentTarget.dataset.value);
     total_3 += x;
@@ -59,5 +59,5 @@ for (var i = 0; i < button__team_3.length; i++ ) {
 
     var points = button__team_3[i];
     //console.log(points.dataset.value);
-    points.addEventListener('click', addPointsS);
+    points.addEventListener('click', addPointsTeam3);
 }        

@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Riskuj</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="teams">
+                    <!--Rename the team to your liking
+                    EXAMPLE: Team-1: => Tomas:
+                    -->
+                    <div class="team team--1">Team-1:
+                        <span class="team__points" id="scoreV">0</span>
+                    </div>
+                    <!--Rename the team to your liking
+                    EXAMPLE: Team-1: => Nicol:
+                    -->
+                    <div class="team team--2">Team-2:
+                        <span class="team__points" id="scoreF">0</span>
+                    </div>
+                    <!--Rename the team to your liking
+                    EXAMPLE: Team-1: => Adam:
+                    -->
+                    <div class="team team--3">Team-3:
+                        <span class="team__points" id="scoreS">0</span>
+                    </div>
+                </div>
+                <!--You can insert your logo here-->
+                <!--
+                <div class="logo">
+                
+                    <img src="" alt="logo">
+                
+                </div>
+                -->
+            </div>
+        </div>
+    </header>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="categories">Best of 60's</div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">100</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-1" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1"  data-value="100">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2"  data-value="100">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="100">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">200</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-1" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1"  data-value="200">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2"  data-value="200">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3"  data-value="200">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">300</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-1" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="300">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="300">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="300">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">400</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-1" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="400">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="400">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="400">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">500</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-1" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="500">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="500">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="500">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="categories">Best of 70's</div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">100</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-2" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="100">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="100">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="100">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">200</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-2" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="200">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="200">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="200">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">300</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-2" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="300">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="300">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="300">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">400</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-2" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="400">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="400">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="400">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">500</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-2" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="500">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="500">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="500">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="categories">Best of 80's</div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">100</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-3" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="100">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="100">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="100">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">200</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-3" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="200">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="200">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="200">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">300</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-3" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="300">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="300">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="300">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">400</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-3" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="400">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="400">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="400">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">500</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-3" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="500">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="500">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="500">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="categories">Best of 90's</div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">100</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-4" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="100">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="100">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="100">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">200</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-4" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="200">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="200">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="200">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">300</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-4" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="300">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="300">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="300">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">400</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-4" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="400">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="400">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="400">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">500</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-4" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="500">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="500">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="500">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="categories">Best of the soundtrack</div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">100</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-5" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="100">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="100">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="100">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">200</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-5" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="200">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="200">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="200">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">300</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-5" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="300">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="300">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="300">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">400</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-5" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="400">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="400">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="400">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front flip-card__point">500</div>
+
+                            <div class="flip-card__back">
+                                <audio controls>
+                                    <source src="./assets/questions/mp3/categories/category-5" type="audio/mpeg">
+                                </audio>
+
+                                <div class="flip-card__buttons">
+                                    <button type="button" class="flip-card__button flip-card--button-1" data-value="500">Team-1</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-2" data-value="500">Team-2</button>
+
+                                    <button type="button" class="flip-card__button flip-card--button-3" data-value="500">Team-3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<script src="./assets/js/init.js"></script>
+</body>
+</html>
